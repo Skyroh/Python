@@ -7,6 +7,7 @@ segundos = input("Introduzca la cantidad de segundos :")
 try:
     segundos = float(segundos)
 
+# SE DIVIDE ENTRE 3600 YA QUE SON LOS SEGUNDOS DE 1 HORA.
     horCalc =  segundos / 3600
     restoSeg = segundos % 3600
     minCalc = restoSeg / 60
